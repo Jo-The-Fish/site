@@ -5,14 +5,17 @@ import { Navbar, Nav } from "react-bootstrap";
 export default function Navigation() {
   return (
     <div>
-      <Navbar bg="light" variant="light">
-        <Nav className="mr-auto" id="navi">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#getInvolved">Get Involved</Nav.Link>
-          <Nav.Link href="#contributorPortal">Contributor Portal</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-        </Nav>
-      </Navbar>
+<Navbar expand="lg" id="navi">
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="m-auto">
+      <Nav.Link className="navlink" href="#home">Home</Nav.Link>
+      <Nav.Link className="navlink" href="#getInvolved">Get Involved</Nav.Link>
+      <Nav.Link className="navlink" href="#contributorPortal">Contributor Portal</Nav.Link>
+      <Nav.Link className="navlink" href="#contact">Contact</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
     </div>
   );
 }
