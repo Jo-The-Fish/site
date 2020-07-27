@@ -7,4 +7,9 @@
     padding: 1.5rem !important;
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+    font-weight: 500;
+}
+
+.navtab {
+    text-decoration: none !important;
 }

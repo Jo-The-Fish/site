@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./Pages/Landing";
+import GetInvolved from "./Pages/GetInvolved";
+import ContributorPortal from "./Pages/ContributorPortal";
+import Contact from "./Pages/Contact";
 import Navigation from "./Components/Navbar/navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,15 +16,15 @@ function App() {
           <Route exact path="/">
             <Landing />
           </Route>
-          {/* <Route exact path="/getinvolved">
+          <Route exact path="/getinvolved">
             <GetInvolved />
           </Route>
-          <Route exact path="/contributor">
+          <Route exact path="/contributorportal">
             <ContributorPortal />
           </Route>
           <Route exact path="/contact">
             <Contact />
-          </Route> */}
+          </Route>
         </Switch>
         {/* <Footer /> */}
       </Router>
