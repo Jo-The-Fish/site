@@ -1,15 +1,15 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Container, Button, Jumbotron } from "react-bootstrap";
 import "./styles.css";
 
 export default function GetInvolved() {
   return (
     <div>
-      <div className="jothefish">
+      <Jumbotron>
         <h2>Get Involved</h2>
-      </div>
-      <div className="jothefish">
-        <h5>Share your knowledge!</h5>
+      </Jumbotron>
+      <Container className="jothefish">
+        <h4>Share your knowledge!</h4>
         <p>
           Jo is just a fish... You'll need to tell him about things so he can
           dig deeper and share it with all it's friends. If you know anything
@@ -21,9 +21,9 @@ export default function GetInvolved() {
         >
           Tell us more!
         </Button>
-      </div>
-      <div className="jothefish">
-        <h5>Become a Reviewer!</h5>
+      </Container>
+      <Container className="jothefish">
+        <h4>Become a Reviewer!</h4>
         <p>
           Jo needs your help in reviewing and investigating the information
           provided. It won't take long and it's super rewarding. Interested?
@@ -35,7 +35,7 @@ export default function GetInvolved() {
         >
           Tell us more!
         </Button>
-      </div>
+      </Container>
     </div>
   );
 }

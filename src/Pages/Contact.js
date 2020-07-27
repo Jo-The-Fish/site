@@ -3,6 +3,8 @@ import "./styles.css";
 
 export default function Contact () {
     return (
-        <div className="jothefish">Under Construction</div>
+        <div className="jothefish">
+            
+        </div>
     );
 }

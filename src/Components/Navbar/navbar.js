@@ -19,6 +19,9 @@ export default function Navigation() {
     <Link className="navtab" to="/contributorportal">
       <Nav.Link className="navlink" href="/contributorPortal">Contributor Portal</Nav.Link>
     </Link>
+    <Link className="navtab" to="/ourteam">
+      <Nav.Link className="navlink" href="/ourteam">Our Team</Nav.Link>
+    </Link>
     <Link className="navtab" to="/contact">
       <Nav.Link className="navlink" href="/contact">Contact</Nav.Link>
     </Link>
