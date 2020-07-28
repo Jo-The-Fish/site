@@ -52,7 +52,7 @@ export default function Reactions() {
         <Col>
           <img
             src={SickJo}
-            alt="dead jo"
+            alt="sick jo"
             onMouseOver={setReactionBad}
             onMouseOut={removeReaction}
           />
