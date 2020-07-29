@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import GetInvolved from "./Pages/GetInvolved";
-import ContributorPortal from "./Pages/ContributorPortal";
+// import ContributorPortal from "./Pages/ContributorPortal";
 import Contact from "./Pages/Contact";
 import Navigation from "./Components/Navbar/navbar"
+import Footer from "./Components/Footer/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,14 +20,14 @@ function App() {
           <Route exact path="/getinvolved">
             <GetInvolved />
           </Route>
-          <Route exact path="/contributorportal">
+          {/* <Route exact path="/contributorportal">
             <ContributorPortal />
-          </Route>
+          </Route> */}
           <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

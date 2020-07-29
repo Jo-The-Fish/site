@@ -1,8 +1,44 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #082653;
 }
 p{
     font-size: 15px;
+}
+.leftalignheading {
+    text-align: left;
+    margin: 2rem;
+}
+.leftaligntext {
+    text-align: left;
+    width: 20rem;
+    font-size: 16px;
+    margin: 2rem 0rem;
+}
+#comingsoon {
+    font-family: 'Rokkitt', serif;
+    color: #4277DE;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: left;
+    margin: 2rem;
+}
+h2 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center !important;
+}
+html, body {
+    height: 100%;
+}
+mark {
+    font-family: 'Rokkitt', serif !important;
+    font-weight: 700;
 }
 .jumbotron {
     justify-content: center;
@@ -12,26 +48,27 @@ p{
     background-color: #ffffff !important;
     margin-bottom: 0 !important;
 }
+mark {
+    background-color: #D8ECF8 !important;
+}
 .jothefish {
     justify-content: center;
     margin: 0% 25% 15% 25%;
-    text-align: center;
+    text-align: center !important;
     margin-bottom: 5rem !important;
     background-color: #ffffff !important;
-}
-.josreactions {
-    justify-content: center;
-    margin: 0% 25% 15% 25%;
-    text-align: center;
-    height: 5rem;
-    padding: 1rem;
-    margin-bottom: 5rem !important;
-    border-radius: 12px;
 }
 img {
     width: 15rem;
     max-width: 100%;
 }
+#landingjo {
+    width: 20rem;
+    padding: 0;
+}
 .contactinput {
     margin: 0rem 0rem 1rem 0rem;
+}
+#rightalignjo {
+    text-align: right;
 }

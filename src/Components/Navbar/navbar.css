@@ -8,8 +8,19 @@
 }
 .navlink {
     padding: 1.5rem !important;
-    margin-right: 4rem !important;
-    margin-left: 4rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.signuplink {
+    padding: 1.5rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
     font-weight: 500;
 }
 .navtab {

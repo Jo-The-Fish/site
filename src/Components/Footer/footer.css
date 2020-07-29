@@ -1,0 +1,45 @@
+.sitefooter {
+    justify-content: center;
+    padding: 0 !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: #ffffff !important;
+    margin-bottom: -50px !important;
+}
+#proudpartners {
+    padding: 3rem 5rem;
+}
+#partners {
+    padding: 5rem;
+    margin: .5rem;
+}
+.partner {
+    width: 10rem;
+}
+.socialicon {
+    width: 2rem;
+    margin: 1.5rem;
+}
+#copywrite {
+    padding: 2rem;
+}
+
+#bottomnavi {
+    text-align: center;
+    padding: 0;
+    margin: 0rem 5rem;
+}
+
+.bottomnavlink {
+    padding: 1.5rem !important;
+    margin-right: 5rem !important;
+    margin-left: 5rem !important;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.bottomnav {
+    text-decoration: none !important;
+    margin: 0;
+}

@@ -1,0 +1,16 @@
+.reactions {
+    justify-content: center !important;
+    margin: 0% 25% 15% 25%;
+    text-align: center !important;
+    margin-bottom: 5rem !important;
+    background-color: #ffffff !important;
+}
+.josreactions {
+    justify-content: center;
+    margin: 0% 25% 15% 25%;
+    text-align: center !important;
+    height: 5rem;
+    padding: 1rem;
+    margin-bottom: 5rem !important;
+    border-radius: 12px;
+}

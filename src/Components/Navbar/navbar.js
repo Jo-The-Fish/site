@@ -3,29 +3,33 @@ import "./navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-export default function Navigation() {
+export default function Navigation () {
   return (
     <div>
 <Navbar expand="lg" id="navi">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="m-auto">
+    {/* <Nav className="m-auto"> */}
+    <Nav className="mr-auto">
     <Link className="navtab" to="/">
-      <Nav.Link className="navlink" href="#home">Home</Nav.Link>
+      <Nav.Link className="navlink" href="#home">HOME</Nav.Link>
     </Link>
     <Link className="navtab" to="/getinvolved">
-      <Nav.Link className="navlink" href="/getInvolved">Get Involved</Nav.Link>
+      <Nav.Link className="navlink" href="/getInvolved">GET INVOLVED</Nav.Link>
     </Link>
-    <Link className="navtab" to="/contributorportal">
+    {/* <Link className="navtab" to="/contributorportal">
       <Nav.Link className="navlink" href="/contributorPortal">Contributor Portal</Nav.Link>
-    </Link>
+    </Link> */}
     <Link className="navtab" to="/ourteam">
-      <Nav.Link className="navlink" href="/ourteam">Our Team</Nav.Link>
+      <Nav.Link className="navlink" href="/ourteam">OUR TEAM</Nav.Link>
     </Link>
     <Link className="navtab" to="/contact">
-      <Nav.Link className="navlink" href="/contact">Contact</Nav.Link>
+      <Nav.Link className="navlink" href="/contact">CONTACT</Nav.Link>
     </Link>
     </Nav>
+    <Link inline>
+      <Nav.Link className="signuplink" href="#">Sign up for early access!</Nav.Link>
+    </Link>
   </Navbar.Collapse>
 </Navbar>
     </div>

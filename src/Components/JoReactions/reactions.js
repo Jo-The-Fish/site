@@ -4,6 +4,7 @@ import HappyJo from "../../Jo/Jo-happy-10-flat-green-fin.svg";
 import NeutralJo from "../../Jo/Jo-neutral-10-flat.svg";
 import ConfusedJo from "../../Jo/Jo-confused-10-flatB.svg";
 import SickJo from "../../Jo/Jo-dead-10-flat-B.svg";
+import "./reactions.css";
 
 export default function Reactions() {
   const [reaction, setReaction] = useState("");
@@ -31,7 +32,20 @@ export default function Reactions() {
   };
 
   return (
-    <Container>
+    <Container className="jothefish">
+      <Row>
+          <h2>Get to Know Jo</h2>
+          <p>
+          Jo is deeply allergic to: any type of discrimination, hate speech,
+          unethical business practices, racial inequality, links to 'dirty
+          money', privacy invasion, modern slavery, child labor, mass pollution,
+          public-misinformation for self gain, funding of anti-LGBTQIA+
+          organizations, human-rights violations... Jo likes people and
+          businesses who do right for the community, people who own up to their
+          mistakes and use it as fuel to drive drastic change, people that fight
+          for positive impact.
+        </p>
+      </Row>
       <Row>
         <Col>
           <img
