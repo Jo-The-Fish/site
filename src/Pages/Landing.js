@@ -5,7 +5,6 @@ import BlueJo from "../Jo/Jo-happy-blue-10-flat.svg";
 import Reactions from "../Components/JoReactions/reactions";
 import HowJoWorks from "../Components/HowJoWorks/howjoworks";
 import SignUpEarlyAccess from "../Components/WantEarlyAccess/wantEarlyAccess";
-// import Wave from "../Jo/wave.svg";
 
 export default function Landing() {
   return (
@@ -15,25 +14,23 @@ export default function Landing() {
           <Col xs={12} sm={12} md={6} lg={6} id="rightalignjo">
             <img id="landingjo" src={BlueJo} alt="happy Jo"></img>
           </Col>
-            <Col xs={12} sm={12} md={6} lg={6} className="centeralignheading">
-          <Container className="centeralign">
-              <h1 className="alignheading">
-                Jo the Fish
-              </h1>
+          <Col xs={12} sm={12} md={6} lg={6} className="centeralignheading">
+            <Container className="centeralign">
+              <h1 className="alignheading">Jo the Fish</h1>
               <p className="aligntext">
-                Jo sits in your browser and will warn you when something smells a
-                bit fishy.
+                Jo sits in your browser and will warn you when something smells
+                a bit fishy.
               </p>
-              <p id="comingsoon">
-                Coming soon...
-              </p>
-          </Container>
-            </Col>
+              <p id="comingsoon">Coming soon...</p>
+            </Container>
+          </Col>
         </Row>
       </Jumbotron>
+      <Container fluid className="underTheWave">
       <HowJoWorks />
       <Reactions />
       <SignUpEarlyAccess />
+      </Container>
     </div>
   );
 }

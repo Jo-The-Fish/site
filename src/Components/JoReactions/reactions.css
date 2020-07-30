@@ -12,10 +12,12 @@
 }
 .josreactions {
     justify-content: center;
+    position: relative;
     margin: 0% 25% 15% 25%;
     text-align: center !important;
-    height: 5rem;
+    height: 10rem;
     padding: 1rem;
     margin-bottom: 5rem !important;
     border-radius: 12px;
+    color: #ffffff;
 }

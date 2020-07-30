@@ -4,6 +4,10 @@
     padding: 0;
     color: #082653;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 p{
     font-size: 15px;
 }
@@ -47,10 +51,14 @@ mark {
 .whiteText {
     color: #ffffff;
 }
+/* .underTheWave {
+    background-image: url(../Jo/wave.svg);
+    bottom: 0;
+} */
 .form {
     width: 40rem !important;
     text-align: center;
-    margin: 0rem 2rem 4rem 2rem;
+    margin: 5rem 2rem 5rem 2rem;
 }
 .jumbotron {
     justify-content: center;
