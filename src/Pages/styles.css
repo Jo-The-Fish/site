@@ -44,6 +44,9 @@ mark {
     font-family: 'Rokkitt', serif !important;
     font-weight: 700;
 }
+.whiteText {
+    color: #ffffff;
+}
 .form {
     width: 40rem !important;
     text-align: center;
@@ -54,7 +57,7 @@ mark {
     padding: 5rem !important;
     /* margin: 0% 25% 0% 25% !important; */
     text-align: center;
-    background-color: #ffffff !important;
+    background-color: transparent !important;
     margin-bottom: 0 !important;
 }
 mark {

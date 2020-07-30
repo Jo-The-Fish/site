@@ -27,7 +27,7 @@ export default function FooterNav() {
           </Link>
           <Link className="bottomnav" to="/contact">
             <Nav.Link className="bottomnavlink" href="/contact">
-              CONTACT
+              CONTACT US
             </Nav.Link>
           </Link>
         </Nav>

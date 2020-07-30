@@ -48,10 +48,10 @@ export default function Reactions() {
   };
 
   return (
-    <Container className="jothefish">
+    <Container className="reactions">
       <Row className="getToKnowJo">
-        <h2>Get to Know Jo</h2>
-        <p>
+        <h2 className="whiteText">Get to Know Jo</h2>
+        <p className="whiteText">
           Jo is deeply allergic to: any type of discrimination, hate speech,
           unethical business practices, racial inequality, links to 'dirty
           money', privacy invasion, modern slavery, child labor, mass pollution,

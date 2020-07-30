@@ -5,6 +5,7 @@ import BlueJo from "../Jo/Jo-happy-blue-10-flat.svg";
 import Reactions from "../Components/JoReactions/reactions";
 import HowJoWorks from "../Components/HowJoWorks/howjoworks";
 import SignUpEarlyAccess from "../Components/WantEarlyAccess/wantEarlyAccess";
+// import Wave from "../Jo/wave.svg";
 
 export default function Landing() {
   return (

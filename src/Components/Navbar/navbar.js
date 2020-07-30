@@ -24,7 +24,7 @@ export default function Navigation () {
       <Nav.Link className="navlink" href="/ourteam">OUR TEAM</Nav.Link>
     </Link>
     <Link className="navtab" to="/contact">
-      <Nav.Link className="navlink" href="/contact">CONTACT</Nav.Link>
+      <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link>
     </Link>
     </Nav>
     <Link inline>
