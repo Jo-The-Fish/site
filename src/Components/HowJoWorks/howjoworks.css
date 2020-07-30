@@ -1,12 +1,23 @@
-.joworks {
+.howjoworks {
     justify-content: center;
     margin: 0% 25% 15% 25%;
     text-align: left;
     margin-bottom: 5rem !important;
     background-color: #ffffff !important;
 }
-
-.howjoworks {
+.addPadding{
+    padding: 5rem 2rem;
+}
+.howjoworksheading {
     color: #4277DE;
     text-align: left !important;
+    font-weight: 700;
+}
+.extensionimg {
+    width: 23rem;
+    text-align: center;
+}
+.centered {
+    display: block;
+    text-align: center;
 }

@@ -7,15 +7,15 @@
 p{
     font-size: 15px;
 }
-.leftalignheading {
-    text-align: left;
+.centeralign {
+    align-content: center;
+}
+.alignheading {
     margin: 2rem;
 }
-.leftaligntext {
-    text-align: left;
-    width: 20rem;
+.aligntext {
     font-size: 16px;
-    margin: 2rem 0rem;
+    margin: 2rem;
 }
 #comingsoon {
     font-family: 'Rokkitt', serif;
@@ -23,15 +23,19 @@ p{
     font-weight: 600;
     line-height: 25px;
     font-size: 24px;
-    text-align: left;
     margin: 2rem;
 }
 h2 {
     font-family: 'Rokkitt', serif;
-    font-weight: 700;
+    font-weight: 700 !important;
     font-size: 40px;
     line-height: 45px;
     text-align: center !important;
+    color: #4277DE;
+}
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700 !important;
 }
 html, body {
     height: 100%;
@@ -39,6 +43,11 @@ html, body {
 mark {
     font-family: 'Rokkitt', serif !important;
     font-weight: 700;
+}
+.form {
+    width: 40rem !important;
+    text-align: center;
+    margin: 0rem 2rem 4rem 2rem;
 }
 .jumbotron {
     justify-content: center;
@@ -56,7 +65,7 @@ mark {
     margin: 0% 25% 15% 25%;
     text-align: center !important;
     margin-bottom: 5rem !important;
-    background-color: #ffffff !important;
+    background-color: none !important;
 }
 img {
     width: 15rem;
@@ -71,4 +80,14 @@ img {
 }
 #rightalignjo {
     text-align: right;
+}
+.btn {
+    background-color: #4EC8F4 !important;
+    border: none !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
+    border-radius: 8%;
+    border: 0;
+    margin: 15px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700 !important;
 }

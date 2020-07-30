@@ -6,6 +6,7 @@ import GetInvolved from "./Pages/GetInvolved";
 import Contact from "./Pages/Contact";
 import Navigation from "./Components/Navbar/navbar"
 import Footer from "./Components/Footer/footer";
+import Team from "./Pages/Team";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </Route> */}
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/ourteam">
+            <Team />
           </Route>
         </Switch>
         <Footer />

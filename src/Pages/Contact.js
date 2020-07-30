@@ -6,9 +6,10 @@ export default function Contact() {
   return (
     <div>
       <Jumbotron>
-        <h2>Get In Touch</h2>
+        <h1>Contact Us</h1>
       </Jumbotron>
-      <Container className="jothefish">
+      <Container className="form">
+        <h2>Get In Touch</h2>
         <p>Want to find out more? Contact us!</p>
         <Form>
           <Form.Control className="contactinput" type="text" placeholder="Name" />

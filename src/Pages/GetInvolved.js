@@ -6,34 +6,34 @@ export default function GetInvolved() {
   return (
     <div>
       <Jumbotron>
-        <h2>Get Involved</h2>
+        <h1>Get Involved</h1>
       </Jumbotron>
       <Container className="jothefish">
-        <h4>Share your knowledge!</h4>
+        <h2>Share your knowledge!</h2>
         <p>
           Jo is just a fish... You'll need to tell him about things so he can
           dig deeper and share it with all it's friends. If you know anything
           fishy about a business fill out our form.
         </p>
-        <Button
+        <Button className="btn"
           href="https://docs.google.com/forms/d/e/1FAIpQLSc3Y69xP1v-P10malw7vxZIsZfS9UBjv3LtZWr_BavlWxcdkw/viewform"
           variant="primary"
         >
-          Tell us more!
+          Tell us more
         </Button>
       </Container>
       <Container className="jothefish">
-        <h4>Become a Reviewer!</h4>
+        <h2>Become a Reviewer!</h2>
         <p>
           Jo needs your help in reviewing and investigating the information
           provided. It won't take long and it's super rewarding. Interested?
           Fill out our form below and Jo's team will be in contact.
         </p>
-        <Button
+        <Button className="btn"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfTbXKEcRXQKynzECNQVtulmuJ7l-OAyEWzFYr4uOBqsVfGuQ/viewform"
           variant="primary"
         >
-          Tell us more!
+          Sign Up
         </Button>
       </Container>
     </div>
