@@ -3,7 +3,7 @@ const teamData = [
         id: 1,
         name: "Simon Wijckmans",
         role: "Founder",
-        bio: "",
+        bio: "People describe me as a young entrepreneur with lots of energy and eagerness to get stuff done. I prefer a more humble approach, I try to do right for people and want to leave my mark on this world. Jo the Fish is a representation of how I think we should choose the people and businesses we (in)directly empower. Your values reflected in your internet behaviour.",
         img: "../Team/simon.jpg"
     },
     {
@@ -45,7 +45,7 @@ const teamData = [
         id: 7,
         name: "Jinny Lee",
         role: "Social Media Manager",
-        bio: "",
+        bio: "I'm currently based in Seoul, Korea, and an undergraduate student studying Media Communications at Yonsei University. Growing up in Brazil with a Korean background, I am passionate about diversity, and I strive for challenges in life, learning and developing through the experiences. I have a passion for media and aspire to bring positive influence on society through this industry.",
         img: "../Team/jinny.JPG"
     },
     {
