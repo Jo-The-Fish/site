@@ -1,73 +1,66 @@
 const teamData = [
     {
         id: 1,
-        name: "Simon",
+        name: "Simon Wijckmans",
         role: "Founder",
         bio: "",
-        img: ""
+        img: "../Team/simon.jpg"
     },
     {
         id: 2,
         name: "Suubi",
         role: "Full Stack Developer",
         bio: "",
-        img: ""
+        img: "../Team/suubi.jpg"
     },
     {
         id: 3,
         name: "Allan Mwesiga",
         role: "Full Stack Developer",
         bio: "",
-        img: ""
+        img: "../Team/allan.jpeg"
     },
     {
         id: 4,
         name: "Jenny Lee",
-        role: "Head of Marketing & Social Media",
+        role: "Head of Marketing",
         bio: "",
-        img: ""
+        img: "../Team/JennyLee.png"
     },
     {
         id: 5,
         name: "Maggie Chen",
         role: "UX Designer",
         bio: "",
-        img: ""
+        img: "../Team/maggie.jpg"
     },
     {
         id: 6,
         name: "Sharlene May Minosa",
         role: "Front End Developer",
         bio: "",
-        img: ""
+        img: "../Team/me.JPG"
     },
     {
         id: 7,
         name: "Jinny Lee",
-        role: "Marketing & Communications",
+        role: "Social Media Manager",
         bio: "",
-        img: ""
+        img: "../Team/jinny.JPG"
     },
     {
         id: 8,
         name: "Jeffrey Cruz",
         role: "Design",
         bio: "",
-        img: ""
+        img: "../Team/Poop-Emoji.png"
     },
     {
         id: 9,
-        name: "hdecrem",
-        role: "Design",
-        bio: "",
-        img: ""
-    },
-    {
-        id: 10,
         name: "Arthur Vranken",
         role: "Head of Data Analysis",
         bio: "",
-        img: ""
+        img: "../Team/Poop-Emoji.png"
     }
 ]
 

@@ -22,23 +22,25 @@ export default function Footer() {
         <h2 id="proudpartners">Proud Partners with</h2>
         <Row id="partners">
           <Col>
-            <img className="partner" src={mozilla} alt="Mozilla" />
+            <a href="https://www.mozilla.org/en-US/"><img className="partner" src={mozilla} alt="Mozilla" /></a>
           </Col>
           <Col>
+          <a href="https://www.stophateforprofit.org/">
             <img
               className="partner"
               src={stopHateForProfit}
               alt="Stop Hate for Profit"
             />
+          </a>
           </Col>
           <Col>
             <img className="partner" src={stanford} alt="Stanford" />
           </Col>
         </Row>
         <FooterNav />
-        <img className="socialicon" src={twitter} alt="Twitter" />
-        <img className="socialicon" src={facebook} alt="Facebook" />
-        <img className="socialicon" src={instagram} alt="Instagram" />
+        <a href="https://twitter.com/Jo_TheFish"><img className="socialicon" src={twitter} alt="Twitter" /></a>
+        <a href="https://www.facebook.com/jo.thefish.sw"><img className="socialicon" src={facebook} alt="Facebook" /></a>
+        <a href="https://www.instagram.com/jo.thefish/"><img className="socialicon" src={instagram} alt="Instagram" /></a>
         <br />
         <p id="copywrite">
           © JoTheFish. All rights reserved.{" "}

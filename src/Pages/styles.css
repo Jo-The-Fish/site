@@ -55,6 +55,11 @@ mark {
     background-image: url(../Jo/wave.svg);
     bottom: 0;
 } */
+.member {
+    width: 20rem;
+    margin-bottom: 13rem;
+    border-radius: 5px;
+}
 .form {
     width: 40rem !important;
     text-align: center;
