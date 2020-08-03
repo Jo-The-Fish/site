@@ -29,6 +29,10 @@ p{
     font-size: 24px;
     margin: 2rem;
 }
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700 !important;
+}
 h2 {
     font-family: 'Rokkitt', serif;
     font-weight: 700 !important;
@@ -37,9 +41,10 @@ h2 {
     text-align: center !important;
     color: #4277DE;
 }
-h1 {
+h3 {
     font-family: 'Rokkitt', serif;
     font-weight: 700 !important;
+    font-size: 20px !important;
 }
 html, body {
     height: 100%;
@@ -51,15 +56,16 @@ mark {
 .whiteText {
     color: #ffffff;
 }
-/* .underTheWave {
-    background-image: url(../Jo/wave.svg);
+.underTheWave {
+    background-image: url(../Jo/wave_background.svg);
     bottom: 0;
-} */
+}
 .member {
-    width: 20rem;
-    margin-bottom: 13rem;
+    max-width: 20rem !important;
+    /* margin-bottom: 13rem; */
     border-radius: 5px;
 }
+
 .form {
     width: 40rem !important;
     text-align: center;

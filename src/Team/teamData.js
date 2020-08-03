@@ -8,17 +8,17 @@ const teamData = [
     },
     {
         id: 2,
-        name: "Suubi",
-        role: "Full Stack Developer",
+        name: "Suubi David",
+        role: "Senior Software Developer",
         bio: "",
         img: "../Team/suubi.jpg"
     },
     {
         id: 3,
-        name: "Allan Mwesiga",
-        role: "Full Stack Developer",
-        bio: "",
-        img: "../Team/allan.jpeg"
+        name: "Allan Mwesigwa",
+        role: "Senior Software Developer",
+        bio: "Happy lad, loves to swim, tour places (post-covid), learn languages (currently learning french mais je parle lantement), solve problems from a technical stand point and learn new things.",
+        img: "../Team/allan.jpg"
     },
     {
         id: 4,
