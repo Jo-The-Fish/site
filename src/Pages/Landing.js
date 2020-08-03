@@ -26,8 +26,8 @@ export default function Landing() {
           </Col>
         </Row>
       </Jumbotron>
-      <Container fluid className="underTheWave">
       <HowJoWorks />
+      <Container fluid className="underTheWave">
       <Reactions />
       <SignUpEarlyAccess />
       </Container>

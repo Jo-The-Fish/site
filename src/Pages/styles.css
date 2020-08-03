@@ -67,9 +67,10 @@ mark {
 }
 
 .form {
-    width: 40rem !important;
+    width: 150vh;
     text-align: center;
     margin: 5rem 2rem 5rem 2rem;
+    align-content: center;
 }
 .jumbotron {
     justify-content: center;
@@ -112,4 +113,14 @@ img {
     margin: 15px;
     font-family: 'Robot', sans-serif;
     font-weight: 700 !important;
+}
+@media only screen and (max-width:600px){
+    .form{
+        width: 30vh;
+    }
+}
+@media only screen and (max-width:1024px){
+    .form{
+        width: 50vh;
+    }
 }

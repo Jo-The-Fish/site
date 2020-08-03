@@ -21,8 +21,12 @@ export default function HowJoWorks() {
             different websites.
           </p>
         </Col>
-        <Col className="centered">
-        <img className="extensionimg" src={ExtensionImg} alt="google chrome extension" />
+        <Col className="addPadding">
+          <img
+            className="extensionimg"
+            src={ExtensionImg}
+            alt="google chrome extension"
+          />
         </Col>
       </Row>
     </Container>

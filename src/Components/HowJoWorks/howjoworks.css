@@ -16,8 +16,24 @@
 .extensionimg {
     width: 23rem;
     text-align: center;
+    position: absolute;
+    left: 15vh;
 }
 .centered {
     display: block;
     text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    .extensionimg{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+    .extensionimg{
+        left: 0vh;
+    }
+    .howjoworks {
+        margin: 5% 25% 15% 25%;
+    }
 }

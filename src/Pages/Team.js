@@ -75,21 +75,6 @@ export default function Team() {
             <h3 style={{ textAlign: "center"}}>Jeffrey Cruz, <br /> Designer</h3>
           </Col>
         </Row>
-        <Row>
-            <Col md={3}>
-            <img className="member" src={Poop} alt="unavailable" />
-            <h3 style={{ textAlign: "center"}}>Micha Merckx, <br /> Reddit Moderator</h3>
-            </Col>
-            <Col md={3}>
-            <img className="member" src={Poop} alt="unavailable" />
-            </Col>
-            <Col md={3}>
-            <img className="member" src={Poop} alt="unavailable" />
-            </Col>
-            <Col md={3}>
-            <img className="member" src={Poop} alt="unavailable" />
-            </Col>
-        </Row>
       </Container>
     </div>
   );

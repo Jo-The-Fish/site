@@ -21,10 +21,10 @@ export default function Footer() {
       <Jumbotron className="sitefooter">
         <h2 id="proudpartners">Proud Partners with</h2>
         <Row id="partners">
-          <Col>
+          <Col xs={12} sm={12} md={4} lg={4}>
             <a href="https://www.mozilla.org/en-US/"><img className="partner" src={mozilla} alt="Mozilla" /></a>
           </Col>
-          <Col>
+          <Col xs={12} sm={12} md={4} lg={4}>
           <a href="https://www.stophateforprofit.org/">
             <img
               className="partner"
@@ -33,7 +33,7 @@ export default function Footer() {
             />
           </a>
           </Col>
-          <Col>
+          <Col xs={12} sm={12} md={4} lg={4}>
             <img className="partner" src={stanford} alt="Stanford" />
           </Col>
         </Row>
