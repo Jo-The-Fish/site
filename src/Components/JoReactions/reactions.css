@@ -2,17 +2,23 @@
     justify-content: center !important;
     margin: 0% 25% 15% 25%;
     text-align: center !important;
-    margin-bottom: 5rem !important;
+    margin-bottom: 25rem !important;
+    display: block;
 }
 .getToKnowJo {
     text-align: left !important;
     padding-top: 50vh;
+    padding-bottom: 18vh;
 }
-#fourjos {
-    margin: 5rem;
+/* #fourjos {
+    display: block;
+} */
+.addingImgMargins {
+    padding: 0 !important;
+    margin-right: 5rem;
 }
 .josreactions {
-    justify-content: center;
+    /* justify-content: center; */
     position: relative;
     margin: 0% 25% 15% 25%;
     text-align: center !important;
@@ -21,4 +27,55 @@
     margin-bottom: 5rem !important;
     border-radius: 12px;
     color: #ffffff;
+}
+#happyJoText {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 30rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    left: 3rem;
+}
+#sickJoText {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 30rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    left: 20rem;
+}
+#confusedJoText {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 30rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    left: 38rem;
+}
+#neutralJoText {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 30rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    left: 55rem;
+}
+
+@media only screen and (max-width:600px){
+    #fourjos{
+        display: none;
+    }
 }
