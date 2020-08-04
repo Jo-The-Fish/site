@@ -26,8 +26,8 @@ export default function Member(props) {
     <div ref={node}>
       <img src={props.src} alt={props.alt} onClick={(e) => setOpen(!open)} />
       {open && (
-        <Card>
-          <h3>{props.role}</h3>
+        <Card id="showBio">
+          <h3 className="whiteText">{props.role}</h3>
           {props.bio}
         </Card>
       )}

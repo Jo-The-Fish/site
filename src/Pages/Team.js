@@ -18,12 +18,12 @@ export default function Team () {
 
   return (
     <div>
-      <Jumbotron>
+      <Jumbotron id="team">
         <h1>Our Team</h1>
       </Jumbotron>
       <Container fluid className="underTheWave">
       <Container>
-        <Row>
+        <Row className="membersTopGrid">
           <Col>
           <Member 
             src={Simon}
@@ -58,7 +58,7 @@ export default function Team () {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="membersLowerGrid">
           <Col>
           <Member 
             src={Maggie}

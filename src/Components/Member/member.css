@@ -1,12 +1,25 @@
-.card {
+/* .card {
     background: rgba(255, 255, 255, 0.2);
+} */
+#team {
+    padding-bottom: 0 !important;
+}
+.membersTopGrid {
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+#showBio {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
     border: none;
     border-radius: 15px;
-    width: 30rem;
-    position: absolute;
+    width: 25rem;
     text-align: left;
     padding: 1rem;
     margin: 1rem;
     font-size: 15px;
-    left: 0;
+    left: -15vh;
+}
+.membersLowerGrid {
+    padding-bottom: 50vh;
 }

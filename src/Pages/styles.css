@@ -60,6 +60,11 @@ mark {
     background-image: url(../Jo/wave_background.svg);
     bottom: 0;
 }
+.teamUnderTheWave {
+    background-image: url(../Jo/big_wave_background.svg);
+    bottom: 0;
+}
+
 .member {
     max-width: 20rem !important;
     /* margin-bottom: 13rem; */
