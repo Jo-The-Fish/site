@@ -114,6 +114,7 @@ img {
     font-family: 'Robot', sans-serif;
     font-weight: 700 !important;
 }
+
 @media only screen and (max-width:600px){
     .form{
         width: 30vh;

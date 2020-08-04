@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Jumbotron, Container, Col, Row, Card } from "react-bootstrap";
 import "./styles.css";
 import teamData from "../Team/teamData";
-// import Member from "../Components/Member/member";
+import Member from "../Components/Member/member";
 import Simon from "../Team/simon.jpg";
 import Suubi from "../Team/suubi.jpg";
 import Jenny from "../Team/JennyLee.png";
@@ -11,70 +11,88 @@ import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
 import Sharlene from "../Team/sharlene.png";
-import Poop from "../Team/Poop-Emoji.png";
+// import Poop from "../Team/Poop-Emoji.png";
 
-export default function Team() {
+export default function Team () {
   // const allMembers = teamData.map(member => <Member key={member.id} member={member} />)
-
-  //   const [simonBio, setSimonBio] = useState("");
-
-  //   const handleBio = () => {
-  //       console.log(teamData[0]);
-  //       setSimonBio("ok")
-  //   }
-  //   const removeBio = () => {
-  //       setSimonBio("");
-  //   }
 
   return (
     <div>
       <Jumbotron>
         <h1>Our Team</h1>
       </Jumbotron>
+      <Container fluid className="underTheWave">
       <Container>
         <Row>
           <Col>
-            <img
-              className="member"
-              src={Simon}
-              alt="simon"
-              //   onMouseOver={handleBio}
-              //   onMouseOut={removeBio}
-            />
-            <h3 style={{ textAlign: "center"}}>Simon Wijckmans <br /> Founder</h3>
+          <Member 
+            src={Simon}
+            alt="simon"
+            role={teamData[0].role}
+            bio={teamData[0].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Allan} alt="allan" />
-            <h3 style={{ textAlign: "center"}}>Allan Mwesigwa, <br /> Senior Software Developer</h3>
+          <Member 
+            src={Allan}
+            alt="allan"
+            role={teamData[2].role}
+            bio={teamData[2].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Suubi} alt="suubi" />
-            <h3 style={{ textAlign: "center"}}>Suubi David, <br /> Senior Software Developer</h3>
+          <Member 
+            src={Suubi}
+            alt="suubi"
+            role={teamData[1].role}
+            bio={teamData[1].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Jenny} alt="jenny" />
-            <h3 style={{ textAlign: "center"}}>Jenny Lee, <br /> Marketing Director</h3>
+          <Member 
+            src={Jenny}
+            alt="jenny"
+            role={teamData[3].role}
+            bio={teamData[3].bio}
+          />
           </Col>
         </Row>
-        <Row></Row>
+
         <Row>
           <Col>
-            <img className="member" src={Maggie} alt="maggie" />
-            <h3 style={{ textAlign: "center"}}>Maggie Chen, <br /> UX/UI Designer</h3>
+          <Member 
+            src={Maggie}
+            alt="maggie"
+            role={teamData[4].role}
+            bio={teamData[4].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Sharlene} alt="sharlene" />
-            <h3 style={{ textAlign: "center"}}>Sharlene May Minosa, <br /> Front End Developer</h3>
+          <Member 
+            src={Sharlene}
+            alt="sharlene"
+            role={teamData[5].role}
+            bio={teamData[5].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Jinny} alt="jinny" />
-            <h3 style={{ textAlign: "center"}}>Jinny Lee, <br /> Social Media Manager</h3>
+          <Member 
+            src={Jinny}
+            alt="jinny"
+            role={teamData[6].role}
+            bio={teamData[6].bio}
+          />
           </Col>
           <Col>
-            <img className="member" src={Jeffrey} alt="jeffrey" />
-            <h3 style={{ textAlign: "center"}}>Jeffrey Cruz, <br /> Designer</h3>
+          <Member 
+            src={Jeffrey}
+            alt="jeffrey"
+            role={teamData[7].role}
+            bio={teamData[7].bio}
+          />
           </Col>
         </Row>
+      </Container>
       </Container>
     </div>
   );
