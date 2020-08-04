@@ -30,7 +30,7 @@
 }
 #happyJoText {
     background: rgba(255, 255, 255, 0.2);
-    /* background-image: linear-gradient(0deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.2) 50%); */
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
     border: none;
     border-radius: 15px;
     color: white;
@@ -43,7 +43,7 @@
 }
 #sickJoText {
     background: rgba(255, 255, 255, 0.2);
-    /* background-image: linear-gradient(0deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.2) 50%); */
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
     border: none;
     color: white;
     width: 30rem;
@@ -55,7 +55,7 @@
 }
 #confusedJoText {
     background: rgba(255, 255, 255, 0.2);
-    /* background-image: linear-gradient(0deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.2) 50%); */
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
     border: none;
     color: white;
     width: 30rem;
@@ -67,7 +67,7 @@
 }
 #neutralJoText {
     background: rgba(255, 255, 255, 0.2);
-    /* background-image: linear-gradient(0deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.2) 50%); */
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
     border: none;
     color: white;
     width: 30rem;

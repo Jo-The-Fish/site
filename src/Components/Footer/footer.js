@@ -44,7 +44,7 @@ export default function Footer() {
         <br />
         <p id="copywrite">
           © JoTheFish. All rights reserved.{" "}
-          <text mouseOver={{ cursor: "pointer" }} onClick={handleShow}>
+          <text id="privacyPolicy" onClick={handleShow}>
             Privacy Policy.
           </text>
         </p>

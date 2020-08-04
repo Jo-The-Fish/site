@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container, Col, Row, Card } from "react-bootstrap";
+import { Jumbotron, Container, Col, Row } from "react-bootstrap";
 import "./styles.css";
 import teamData from "../Team/teamData";
 import Member from "../Components/Member/member";
@@ -21,7 +21,7 @@ export default function Team () {
       <Jumbotron id="team">
         <h1>Our Team</h1>
       </Jumbotron>
-      <Container fluid className="underTheWave">
+      <Container fluid className="teamUnderTheWave">
       <Container>
         <Row className="membersTopGrid">
           <Col>

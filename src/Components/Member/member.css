@@ -10,6 +10,7 @@
 }
 #showBio {
     background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
     color: white;
     border: none;
     border-radius: 15px;

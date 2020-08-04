@@ -61,7 +61,7 @@ mark {
     bottom: 0;
 }
 .teamUnderTheWave {
-    background-image: url(../Jo/big_wave_background.svg);
+    background-image: url(../Jo/wave_background.svg);
     bottom: 0;
 }
 
@@ -98,6 +98,7 @@ mark {
 img {
     width: 12rem;
     max-width: 100%;
+    cursor: pointer;
 }
 #landingjo {
     width: 20rem;
