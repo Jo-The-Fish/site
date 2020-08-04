@@ -24,7 +24,7 @@ const teamData = [
         id: 4,
         name: "Jenny Lee",
         role: "Jenny Lee / Head of Marketing",
-        bio: "",
+        bio: "Born and raised in São Paulo, Brazil, in a Korean household, I'm an undergraduate student at Yale University, majoring in Political Science with the Human Rights Project. Passionate about environmental law and justice, indigenous rights, refugee rights, and criminal law. Obsessed with iced lattes with hazelnut syrup, Spotify playlists, quality-movies, and a good, long talk.",
         img: "../Team/JennyLee.png"
     },
     {
@@ -37,8 +37,8 @@ const teamData = [
     {
         id: 6,
         name: "Sharlene May Minosa",
-        role: "Sharlene May / Front End Developer",
-        bio: "",
+        role: "Sharlene May Minosa / Front End Developer",
+        bio: "I have a background in Linguistic Anthropology and Humanities research as I'm interested in all things human and digital. Alongside web dev, I'm passionate about environmental sustainability and slow fashion. Photography is my hobby and fencing is my sport.",
         img: "../Team/me.JPG"
     },
     {
@@ -51,7 +51,7 @@ const teamData = [
     {
         id: 8,
         name: "Jeffrey Cruz",
-        role: "Jeffrey Cruz / Design",
+        role: "Jeffrey Cruz / Designer",
         bio: "",
         img: "../Team/Poop-Emoji.png"
     },
