@@ -3,9 +3,10 @@ import { Jumbotron, Row, Col, Modal } from "react-bootstrap";
 import FooterNav from "./footerNav";
 import PrivacyPolicy from "../PrivacyPolicy/privacyPolicy";
 import "./footer.css";
-import mozilla from "../../Partners/mozilla.svg";
-import stopHateForProfit from "../../Partners/stop-hate-for-profit.svg";
+// import mozilla from "../../Partners/mozilla.svg";
+// import stopHateForProfit from "../../Partners/stop-hate-for-profit.svg";
 import stanford from "../../Partners/stanford.svg";
+import startup from "../../Partners/startup.svg";
 import twitter from "../../SocialIcons/twitter.svg";
 import facebook from "../../SocialIcons/facebook.svg";
 import instagram from "../../SocialIcons/instagram.svg";
@@ -19,9 +20,9 @@ export default function Footer() {
   return (
     <div>
       <Jumbotron className="sitefooter">
-        <h2 id="proudpartners">Proud Partners with</h2>
+        <h2 id="proudpartners">Supported by</h2>
         <Row id="partners">
-          <Col xs={12} sm={12} md={4} lg={4}>
+          {/* <Col xs={12} sm={12} md={4} lg={4}>
             <a href="https://www.mozilla.org/en-US/"><img className="partner" src={mozilla} alt="Mozilla" /></a>
           </Col>
           <Col xs={12} sm={12} md={4} lg={4}>
@@ -32,15 +33,24 @@ export default function Footer() {
               alt="Stop Hate for Profit"
             />
           </a>
+          </Col> */}
+          <Col xs={12} sm={12} md={12} lg={12}>
+            <img className="partner" src={startup} alt="Y Startup School" />
           </Col>
-          <Col xs={12} sm={12} md={4} lg={4}>
+          <Col xs={12} sm={12} md={12} lg={12}>
             <img className="partner" src={stanford} alt="Stanford" />
           </Col>
         </Row>
         <FooterNav />
-        <a href="https://twitter.com/Jo_TheFish"><img className="socialicon" src={twitter} alt="Twitter" /></a>
-        <a href="https://www.facebook.com/jo.thefish.sw"><img className="socialicon" src={facebook} alt="Facebook" /></a>
-        <a href="https://www.instagram.com/jo.thefish/"><img className="socialicon" src={instagram} alt="Instagram" /></a>
+        <a href="https://twitter.com/Jo_TheFish">
+          <img className="socialicon" src={twitter} alt="Twitter" />
+        </a>
+        <a href="https://www.facebook.com/jo.thefish.sw">
+          <img className="socialicon" src={facebook} alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/jo.thefish/">
+          <img className="socialicon" src={instagram} alt="Instagram" />
+        </a>
         <br />
         <p id="copywrite">
           © JoTheFish. All rights reserved.{" "}
@@ -49,13 +59,13 @@ export default function Footer() {
           </text>
         </p>
         <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Jo the Fish Privacy Policy</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
+          <Modal.Header closeButton>
+            <Modal.Title>Jo the Fish Privacy Policy</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
             <PrivacyPolicy />
-        </Modal.Body>
-      </Modal>
+          </Modal.Body>
+        </Modal>
       </Jumbotron>
     </div>
   );

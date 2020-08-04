@@ -15,7 +15,7 @@ export default function Landing() {
             <img id="landingjo" src={BlueJo} alt="happy Jo"></img>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} className="centeralignheading">
-            <Container className="centeralign">
+            <Container id="centeralign">
               <h1 className="alignheading">Jo the Fish</h1>
               <p className="aligntext">
                 Jo sits in your browser and will warn you when something smells

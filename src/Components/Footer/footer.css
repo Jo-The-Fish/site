@@ -10,11 +10,12 @@
     padding: 3rem 5rem;
 }
 #partners {
-    padding: 5rem;
+    padding: 3rem;
     margin: .5rem;
 }
 .partner {
     width: 10rem;
+    margin-bottom: 5rem;
 }
 .socialicon {
     width: 2rem;
@@ -27,7 +28,7 @@
 
 #bottomnavi {
     text-align: center;
-    padding: 0;
+    padding: 3rem;
     margin: 0rem 5rem;
 }
 #privacyPolicy {
@@ -45,4 +46,5 @@
 .bottomnav {
     text-decoration: none !important;
     margin: 0;
+    color: #082653;
 }
