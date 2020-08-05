@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
 // import jsonp from 'jsonp';
 // import queryString from 'query-string';
 
