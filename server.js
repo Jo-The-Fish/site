@@ -26,7 +26,7 @@ app.get("/api/memberList", (req, res) => {
 app.post("/api/memberList", (req, res) => {
   mailchimp
     .post(`/lists/${list_id}/members`, {
-      email_address: req.body.email,
+      email_address: req.body.email_address,
     })
     .then(() => {
       console.log("email added");

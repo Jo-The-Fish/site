@@ -2,6 +2,8 @@ import React from "react";
 import "./navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+// import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
+
 
 export default function Navigation () {
   return (

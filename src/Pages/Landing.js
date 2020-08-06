@@ -42,7 +42,9 @@ export default function Landing() {
       </Section>
       <Container fluid className="underTheWave">
         <Reactions />
-        <SignUpEarlyAccess />
+        <Section id="subscribe">
+          <SignUpEarlyAccess />
+        </Section>
       </Container>
     </ScrollingProvider>
   );

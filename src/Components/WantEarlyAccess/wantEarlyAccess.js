@@ -6,10 +6,8 @@ import { Container, Form, Button } from "react-bootstrap";
 // import queryString from 'query-string';
 
 export default function SignUpEarlyAccess() {
-
   const [email, setEmail] = useState("");
   // const [error, setError] = useState("");
-
 
   // const listId = process.env.MAILING_LIST_ID;
   // const subscribingUser = {
@@ -33,15 +31,14 @@ export default function SignUpEarlyAccess() {
   //   );
   // };
   const subscribe = () => {
-
-  //   const formData = {
-  //     EMAIL: email
-  //   };
-  //   jsonp(`${process.env.REACT_APP_MAILCHIMP_URL}${queryString.stringify(formData)}`, { param: 'c' }, (err, data) => {
-  //     console.log('err:', err);
-  //     console.log('data:', data);
-  //   });
-  }
+    //   const formData = {
+    //     EMAIL: email
+    //   };
+    //   jsonp(`${process.env.REACT_APP_MAILCHIMP_URL}${queryString.stringify(formData)}`, { param: 'c' }, (err, data) => {
+    //     console.log('err:', err);
+    //     console.log('data:', data);
+    //   });
+  };
 
   // const url = process.env.MAILCHIMP_URL
 
@@ -51,7 +48,12 @@ export default function SignUpEarlyAccess() {
       <Container className="form" id="earlyAccess">
         <h2 className="whiteText">Want early access?</h2>
         <Form>
-          <Form.Control className="contactinput" type="email" placeholder="Email" onChange={e => setEmail(e.target.value)}/>
+          <Form.Control
+            className="contactinput"
+            type="email"
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <Button variant="primary" type="submit" onClick={subscribe}>
             Submit
           </Button>
