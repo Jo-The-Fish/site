@@ -23,10 +23,11 @@ app.get("/api/memberList", (req, res) => {
       res.send(err);
     });
 });
-app.post("/api/memberList", (req, res) => {
+app.post("/api/memberList/:email_address", (req, res) => {
   mailchimp
     .post(`/lists/${list_id}/members`, {
-      email_address: req.body.email_address,
+      email_address: req.param.email_address,
+      status : 'subscribed'
     })
     .then(() => {
       console.log("email added");
