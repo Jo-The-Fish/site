@@ -9,6 +9,8 @@ import ShadedSickJo from "../../Jo/shaded-Jo-sick.svg";
 import ShadedConfusedJo from "../../Jo/shaded-Jo-confused.svg";
 import ShadedNeutralJo from "../../Jo/shaded-Jo-neutral.svg";
 import "./reactions.css";
+// import { Transition } from 'react-transition-group';
+
 
 export default function Reactions() {
   const [reaction, setReaction] = useState("");

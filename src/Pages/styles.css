@@ -24,6 +24,9 @@ p{
     margin: 2rem;
     text-align: left;
 }
+.centeralignheading {
+    padding: 7rem;
+}
 #comingsoon {
     font-family: 'Rokkitt', serif;
     color: #4277DE;
@@ -128,7 +131,9 @@ img {
     padding: 1rem 10rem 0rem 10rem;
     text-align: left;
 }
-
+#blueDownArrow {
+    width: 1.5rem;
+}
 @media only screen and (max-width:600px){
     .form{
         width: 30vh;
