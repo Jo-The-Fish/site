@@ -119,7 +119,16 @@
 }
 
 @media only screen and (max-width:600px){
-    #fourjos{
+    .mobileCol {
+        padding: 0 !important;
+    }
+    #landingjo {
+        width: 15rem;
+        position: absolute;
+        z-index: 2;
+        right: -2rem;
+    }
+    #fourjos {
         display: none;
     }
     #mobileJos {
@@ -148,5 +157,6 @@
     }
     .reactions {
         margin-bottom: 10rem !important;
+        padding-top: 15rem;
     }
 }

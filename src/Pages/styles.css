@@ -11,7 +11,7 @@ body {
 p{
     font-size: 15px;
 }
-#centeralign {
+#mainJoTheFish {
     width: 28rem;
     position: absolute;
     left: -2rem;
@@ -26,6 +26,7 @@ p{
 }
 .centeralignheading {
     padding: 7rem;
+    text-align: center;
 }
 #comingsoon {
     font-family: 'Rokkitt', serif;
@@ -134,15 +135,24 @@ img {
 #blueDownArrow {
     width: 1.5rem;
 }
+#arrowDown {
+    display: block;
+}
+#mobileBlueJo {
+    display: none;
+}
+
 @media only screen and (max-width:600px){
     .form{
         width: 30vh;
     }
-    #centeralign {
+    #mainJoTheFish {
         width: 100%;
-        position: relative;
         left: 0rem;
         padding: 0;
+    }
+    #arrowDown {
+        display: block;
     }
     .jumbotron {
         justify-content: center;
@@ -156,6 +166,35 @@ img {
         padding: 1rem !important;
         text-align: justify !important;
     }
+    #partialJo {
+        width: 9rem;
+        position: absolute;
+        right: 0;
+    }
+    #blueJo {
+        display: none;
+    }
+    #mobileBlueJo {
+        display: block;
+        text-align: left;
+        padding: 10rem 3rem !important;
+    }
+    .alignheading {
+        font-size: 30px;
+        margin: 3rem 1rem 1rem 0rem !important;
+    }
+    .aligntext {
+        font-size: 10px;
+        width: 10rem;
+        margin: 1rem 0rem !important;
+    }
+    #comingsoon {
+        font-size: 12px;
+        margin: 1rem 0rem !important;
+    }
+    .centeralignheading {
+        margin-top: 5rem;
+    }
 }
 @media only screen and (max-width:1024px){
     .form{
@@ -165,7 +204,7 @@ img {
         padding: 1rem 5rem 0rem 5rem;
         text-align: left;
     }
-    #centeralign {
+    #mainJoTheFish {
         width: 20rem;
         position: absolute;
         left: -2rem;

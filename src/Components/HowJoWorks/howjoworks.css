@@ -23,7 +23,15 @@
     display: block;
     text-align: center;
 }
-
+/* @media only screen and (max-width:600px){
+    .extensionimg{
+        width: 75%;
+        margin-left: 5vh;
+    }
+    .addPadding{
+        padding: 1rem 2rem;
+    }
+} */
 @media only screen and (max-width:600px){
     .extensionimg{
         width: 75%;
