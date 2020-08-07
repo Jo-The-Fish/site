@@ -3,10 +3,10 @@ import { Jumbotron, Row, Col, Modal } from "react-bootstrap";
 import FooterNav from "./footerNav";
 import PrivacyPolicy from "../PrivacyPolicy/privacyPolicy";
 import "./footer.css";
-// import mozilla from "../../Partners/mozilla.svg";
+import mozilla from "../../Partners/mozilla.svg";
 // import stopHateForProfit from "../../Partners/stop-hate-for-profit.svg";
-import stanford from "../../Partners/stanford.svg";
-import startup from "../../Partners/startup.svg";
+// import stanford from "../../Partners/stanford.svg";
+// import startup from "../../Partners/startup.svg";
 import twitter from "../../SocialIcons/twitter.svg";
 import facebook from "../../SocialIcons/facebook.svg";
 import instagram from "../../SocialIcons/instagram.svg";
@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <div>
       <Jumbotron className="sitefooter">
-        <h2 id="proudpartners">Supported by</h2>
+        <h2 id="proudpartners">Launched at</h2>
         <Row id="partners">
           {/* <Col xs={12} sm={12} md={4} lg={4}>
             <a href="https://www.mozilla.org/en-US/"><img className="partner" src={mozilla} alt="Mozilla" /></a>
@@ -35,11 +35,11 @@ export default function Footer() {
           </a>
           </Col> */}
           <Col xs={12} sm={12} md={12} lg={12}>
-            <img className="partner" src={startup} alt="Y Startup School" />
+            <img className="partner" src={mozilla} alt="Y Startup School" />
           </Col>
-          <Col xs={12} sm={12} md={12} lg={12}>
+          {/* <Col xs={12} sm={12} md={12} lg={12}>
             <img className="partner" src={stanford} alt="Stanford" />
-          </Col>
+          </Col> */}
         </Row>
         <FooterNav />
         <a href="https://twitter.com/Jo_TheFish">

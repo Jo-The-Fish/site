@@ -5,16 +5,16 @@ import "./styles.css";
 export default function Contact() {
   return (
     <div>
-      <Jumbotron>
+      <Jumbotron className="contact">
         <h1>Contact Us</h1>
       </Jumbotron>
       <Container className="form">
         <h2>Get In Touch</h2>
         <p>Want to find out more? Contact us!</p>
         <Form>
-          <Form.Control className="contactinput" type="text" placeholder="Name" />
-          <Form.Control className="contactinput" type="email" placeholder="Email" />
-          <Form.Control className="contactinput" as="textarea" placeholder="Message" rows="5" />
+          <Form.Control className="messageinput" type="text" placeholder="Name" />
+          <Form.Control className="messageinput" type="email" placeholder="Email" />
+          <Form.Control className="messageinput" as="textarea" placeholder="Message" rows="5" />
           <Button variant="primary" type="submit">
             Send Message
           </Button>

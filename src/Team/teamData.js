@@ -8,9 +8,9 @@ const teamData = [
     },
     {
         id: 2,
-        name: "Suubi David",
-        role: "Suubi David / Senior Software Developer",
-        bio: "",
+        name: "Kironde David Suubi",
+        role: "Kironde David Suubi / Senior Software Developer",
+        bio: "Full stack developer with 4 years of experience in the development of software and solutions. Proven leader with the ability to transform software engineers into highly productive and motivated development teams, drive the achievement of organizational objectives, and streamline development processes.",
         img: "../Team/suubi.jpg"
     },
     {
@@ -38,7 +38,7 @@ const teamData = [
         id: 6,
         name: "Sharlene May Minosa",
         role: "Sharlene May Minosa / Front End Developer",
-        bio: "I have a background in Linguistic Anthropology and Humanities research as I'm interested in all things human and digital. Alongside web dev, I'm passionate about environmental sustainability and slow fashion. Photography is my hobby and fencing is my sport.",
+        bio: "I have a background in Linguistic Anthropology and Humanities research as I'm interested in all things human and digital. Alongside web dev, I'm passionate about environmental sustainability and slow fashion.",
         img: "../Team/me.JPG"
     },
     {
@@ -51,8 +51,8 @@ const teamData = [
     {
         id: 8,
         name: "Jeffrey Cruz",
-        role: "Jeffrey Cruz / Designer",
-        bio: "",
+        role: "Jeffrey Cruz / Content Designer",
+        bio: "A New York City native, and undergrad at Boston College studying fine arts and psychology.",
         img: "../Team/Poop-Emoji.png"
     },
     {

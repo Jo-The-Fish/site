@@ -1,0 +1,12 @@
+#earlyAccess {
+    padding-bottom: 10rem;
+}
+.contactinput {
+    margin: 0rem 0rem 1rem 0rem;
+    background: rgba(255, 255, 255, 0.5) !important;
+    border: 0px !important;
+    color: #ffffff !important;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+}

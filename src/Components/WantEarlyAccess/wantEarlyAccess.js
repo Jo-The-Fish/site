@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
 import { postMailchimp } from "../../utils/API";
+import "./wantEarlyAccess.css";
 
 export default function SignUpEarlyAccess() {
   const [email, setEmail] = useState("");

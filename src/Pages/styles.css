@@ -78,11 +78,8 @@ html, body {
 .form {
     width: 150vh;
     text-align: center;
-    margin: 5rem 2rem 5rem 2rem;
+    margin: 0rem 2rem 5rem 2rem;
     align-content: center;
-}
-#earlyAccess {
-    padding-bottom: 10rem;
 }
 .jumbotron {
     justify-content: center;
@@ -111,9 +108,6 @@ img {
     width: 20rem;
     padding: 0;
 }
-.contactinput {
-    margin: 0rem 0rem 1rem 0rem;
-}
 #rightalignjo {
     text-align: right;
 }
@@ -127,7 +121,12 @@ img {
     font-family: 'Robot', sans-serif;
     font-weight: 700 !important;
 }
-
+.jumbotron.contact {
+    padding: 0rem;
+}
+.messageinput {
+    margin: 0rem 0rem 1rem 0rem;
+}
 .getinvolved { 
     padding: 1rem 10rem 0rem 10rem;
     text-align: left;
