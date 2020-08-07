@@ -9,15 +9,15 @@
 #toggle-icon {    
     border: 0px;
 }
-.navlink {
+/* .navlink {
     padding: 1.5rem !important;
     margin-right: 2rem !important;
     margin-left: 2rem !important;
-    font-weight: 400;
+    font-weight: normal;
     font-variant: small-caps;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-}
+} */
 .signuplink {
     padding: 1.5rem !important;
     margin-right: 2rem !important;
@@ -26,7 +26,22 @@
     font-size: 20px;
     font-weight: 500;
 }
-.navtab {
+.navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a:hover {
+    color: #fff;
+ }
+.inactive {
     text-decoration: none !important;
     margin: 0;
+    color: #000000;
+    padding: 1.5rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.activeLink ul > li > a {
+    font-weight: 700;
+    color: #4277DE;
 }

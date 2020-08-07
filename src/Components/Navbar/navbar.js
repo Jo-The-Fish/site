@@ -13,20 +13,20 @@ export default function Navigation () {
   <Navbar.Collapse id="basic-navbar-nav">
     {/* <Nav className="m-auto"> */}
     <Nav className="mr-auto">
-    <Link className="navtab" to="/">
-      <Nav.Link className="navlink" href="#home">HOME</Nav.Link>
+    <Link className="inactive" activeClassName="active" exact={true} to="/">HOME
+      {/* <Nav.Link className="navlink" href="#home">HOME</Nav.Link> */}
     </Link>
-    <Link className="navtab" to="/getinvolved">
-      <Nav.Link className="navlink" href="/getInvolved">GET INVOLVED</Nav.Link>
+    <Link className="inactive" activeClassName="active" exact={true} to="/getinvolved">GET INVOLVED
+      {/* <Nav.Link className="navlink" href="/getInvolved">GET INVOLVED</Nav.Link> */}
     </Link>
     {/* <Link className="navtab" to="/contributorportal">
       <Nav.Link className="navlink" href="/contributorPortal">Contributor Portal</Nav.Link>
     </Link> */}
-    <Link className="navtab" to="/ourteam">
-      <Nav.Link className="navlink" href="/ourteam">OUR TEAM</Nav.Link>
+    <Link className="inactive" activeClassName="active" exact={true}  to="/ourteam">OUR TEAM
+      {/* <Nav.Link className="navlink" href="/ourteam">OUR TEAM</Nav.Link> */}
     </Link>
-    <Link className="navtab" to="/contact">
-      <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link>
+    <Link className="inactive" activeClassName="active" exact={true}  to="/contact">CONTACT US
+      {/* <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link> */}
     </Link>
     </Nav>
     <Link inline>
