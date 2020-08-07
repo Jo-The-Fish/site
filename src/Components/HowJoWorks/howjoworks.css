@@ -26,7 +26,11 @@
 
 @media only screen and (max-width:600px){
     .extensionimg{
-        display: none;
+        width: 75%;
+        margin-left: 5vh;
+    }
+    .addPadding{
+        padding: 1rem 2rem;
     }
 }
 @media only screen and (max-width:1024px){

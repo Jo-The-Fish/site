@@ -9,7 +9,7 @@ export default function Navigation () {
   return (
     <div>
 <Navbar expand="lg" id="navi">
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Toggle className="navbar-light" aria-controls="basic-navbar-nav" id="toggle-icon" />
   <Navbar.Collapse id="basic-navbar-nav">
     {/* <Nav className="m-auto"> */}
     <Nav className="mr-auto">

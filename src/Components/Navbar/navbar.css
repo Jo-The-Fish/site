@@ -6,6 +6,9 @@
 #basic-navbar-nav {
     margin: 0;
 }
+#toggle-icon {    
+    border: 0px;
+}
 .navlink {
     padding: 1.5rem !important;
     margin-right: 2rem !important;

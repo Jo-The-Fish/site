@@ -1,43 +1,21 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
-// const mailchimp = require("@mailchimp/mailchimp_marketing");
-// import MailchimpSubscribe from "react-mailchimp-subscribe"
-// import jsonp from 'jsonp';
-// import queryString from 'query-string';
+import { postMailchimp } from "../../utils/API";
 
 export default function SignUpEarlyAccess() {
   const [email, setEmail] = useState("");
   // const [error, setError] = useState("");
+  // const [confirmation, setConfirmation] = useState("");
 
-  // const listId = process.env.MAILING_LIST_ID;
-  // const subscribingUser = {
-  //   firstName: email,
-  //   lastName: email,
-  //   email: email
-  // };
-
-  // async function subscribe (event) {
-  //   event.preventDefault();
-  //   const response = await mailchimp.lists.addListMember(listId, {
-  //     email_address: subscribingUser.email,
-  //     status: "subscribed",
-  //     merge_fields: {
-  //       FNAME: subscribingUser.firstName,
-  //       LNAME: subscribingUser.lastName
-  //     }
-  //   });
-  //   console.log(
-  //     `Successfully added contact as an audience member. The contact's id is ${response.id}.`
-  //   );
-  // };
-  const subscribe = () => {
-    //   const formData = {
-    //     EMAIL: email
-    //   };
-    //   jsonp(`${process.env.REACT_APP_MAILCHIMP_URL}${queryString.stringify(formData)}`, { param: 'c' }, (err, data) => {
-    //     console.log('err:', err);
-    //     console.log('data:', data);
-    //   });
+  const subscribe = (event) => {
+    event.preventDefault();
+    postMailchimp({
+      email_address: email
+    }).then(() => {
+      console.log("You have been added to the list. Thank you!");
+    }).catch(() => {
+      console.log("Email invalid. Please try again.");
+    })
   };
 
   // const url = process.env.MAILCHIMP_URL

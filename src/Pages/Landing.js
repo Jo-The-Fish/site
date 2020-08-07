@@ -28,7 +28,7 @@ export default function Landing() {
           </Col>
         </Row>
         <Row>
-        <Col className="centeralignheading" xs={12} lg={12}>
+        <Col className="centeralignheading" id="arrowDown" xs={12} lg={12}>
           <SectionLink section="howJoWorks">
             {({ onClick, isSelected }) => (
               <img id="blueDownArrow" src={downArrow} alt="down" onClick={onClick} selected={isSelected} />

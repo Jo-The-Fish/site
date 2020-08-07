@@ -165,4 +165,12 @@ img {
         padding: 1rem 5rem 0rem 5rem;
         text-align: left;
     }
+    #centeralign {
+        width: 20rem;
+        position: absolute;
+        left: -2rem;
+    }
+    #arrowDown {
+        display:none;
+    }
 }
