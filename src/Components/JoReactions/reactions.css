@@ -7,7 +7,7 @@
 }
 .getToKnowJo {
     text-align: left !important;
-    padding-top: 50vh;
+    padding-top: 80vh;
     padding-bottom: 18vh;
 }
 /* #fourjos {
@@ -136,14 +136,16 @@
     }
     .getToKnowJo {
         text-align: left !important;
-        padding-top: 50vh;
         padding-bottom: 10vh;
+        padding-top: 55vh;
     }
     .reactions {
         margin-bottom: 0rem;
+        padding-top: 0rem;
+
     }
 }
-@media only screen and (max-width:1024px){
+@media only screen and (min-device-width: 601px) and (max-width:1024px){
     #fourjos{
         display: none;
     }
@@ -152,11 +154,11 @@
     }
     .getToKnowJo {
         text-align: left !important;
-        padding-top: 25vh;
+        padding-top: 5vh;
         padding-bottom: 10vh;
     }
     .reactions {
         margin-bottom: 10rem;
-        padding-top: 10rem;
+        padding-top: 15rem;
     }
 }

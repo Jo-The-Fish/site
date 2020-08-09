@@ -13,6 +13,13 @@
 
 @media only screen and (max-width:600px){
     #earlyAccess {
-        padding-bottom: 0rem;
+        padding-top:5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media only screen and (min-device-width: 601px) and (max-width:1024px) {
+    #earlyAccess {
+        padding-bottom: 5rem;
     }
 }

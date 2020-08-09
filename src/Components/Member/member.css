@@ -54,7 +54,7 @@
         display: none;
     }
 }
-@media only screen and (max-width:1024px) {
+@media only screen and (min-device-width: 601px) and (max-width:1024px) {
     .desktopTeam {
         display: none;
     }
