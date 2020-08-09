@@ -10,3 +10,9 @@
 .form-control::-webkit-input-placeholder {
     color: #fff;
 }
+
+@media only screen and (max-width:600px){
+    #earlyAccess {
+        padding-bottom: 0rem;
+    }
+}

@@ -68,10 +68,21 @@ html, body {
 .teamUnderTheWave {
     background-image: url(../Jo/wave_background.svg);
     bottom: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: none;
 }
 .teamUnderTheWave2 {
     background-image: url(../Jo/wave_background.svg);
     bottom: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: none;
 }
 .member {
@@ -144,6 +155,9 @@ img {
 }
 #mobileBlueJo {
     display: none;
+}
+#mobileTeam {
+    padding-top: 15rem;
 }
 @media only screen and (max-width:600px){
     .form{

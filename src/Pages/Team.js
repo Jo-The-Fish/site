@@ -107,10 +107,7 @@ export default function Team () {
     </Container>
     <Container fluid className="teamUnderTheWave2">
       {/* Mobile */}
-      <Container className="mobileTeam">
-          <Row>
-            
-          </Row>
+      <div id="mobileTeam">
           <TeamMobile 
             src={Simon}
             alt="simon"
@@ -165,7 +162,7 @@ export default function Team () {
             role={teamData[9].role}
             bio={teamData[9].bio}
           />
-      </Container>
+      </div>
       {/* end Mobile */}
 
       </Container>

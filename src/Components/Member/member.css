@@ -2,7 +2,7 @@
     background: rgba(255, 255, 255, 0.2);
 } */
 #team {
-    padding-bottom: 0 !important;
+    padding-top: 8rem !important;
 }
 .membersTopGrid {
     padding-top: 25vh;
@@ -30,13 +30,20 @@
     color: white;
     border: none;
     border-radius: 15px;
-    width: 25rem;
+    width: 100%;
     text-align: left;
     padding: 1rem;
     font-size: 15px;
+    margin-bottom: 0;
+}
+.mobileImg {
+    margin-bottom: 1rem;
+}
+.mobileMember {
+    text-align: center;
 }
 .mobileRow {
-    margin: 5rem 0rem;
+    margin: 1rem 0rem;
 }
 .membersLowerGrid {
     padding-bottom: 15vh;
