@@ -31,7 +31,7 @@ const teamData = [
         id: 5,
         name: "Maggie Chen",
         role: "Maggie Chen / UX Designer",
-        bio: "",
+        bio: "Grad student at Harvard GSD, enjoys cafe-hopping (post-COVID) and travelling (post-COVID). Believes that doing good can be more than protests, donations, and social media posts, and that small, everyday actions can have a deep impact.",
         img: "../Team/maggie.jpg"
     },
     {
