@@ -24,13 +24,31 @@
     font-size: 15px;
     left: -15vh;
 }
+#mobileBio {
+    background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 25rem;
+    text-align: left;
+    padding: 1rem;
+    font-size: 15px;
+}
+.mobileRow {
+    margin: 5rem 0rem;
+}
 .membersLowerGrid {
     padding-bottom: 15vh;
 }
 
 @media only screen and (max-width:600px) {
-
+    .desktopTeam {
+        display: none;
+    }
 }
 @media only screen and (max-width:1024px) {
-
+    .desktopTeam {
+        display: none;
+    }
 }

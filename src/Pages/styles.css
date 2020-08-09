@@ -69,6 +69,11 @@ html, body {
     background-image: url(../Jo/wave_background.svg);
     bottom: 0;
 }
+.teamUnderTheWave2 {
+    background-image: url(../Jo/wave_background.svg);
+    bottom: 0;
+    display: none;
+}
 .member {
     max-width: 20rem !important;
     /* margin-bottom: 13rem; */
@@ -193,6 +198,9 @@ img {
     .centeralignheading {
         margin-top: 5rem;
     }
+    .teamUnderTheWave2 {
+        display: block;
+    }
 }
 @media only screen and (max-width:1024px){
     .form{
@@ -209,5 +217,8 @@ img {
     }
     #arrowDown {
         display:none;
+    }
+    .teamUnderTheWave2 {
+        display: block;
     }
 }

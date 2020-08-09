@@ -3,6 +3,7 @@ import { Jumbotron, Container, Col, Row } from "react-bootstrap";
 import "./styles.css";
 import teamData from "../Team/teamData";
 import Member from "../Components/Member/member";
+import TeamMobile from "../Components/Member/teamMobile";
 import Simon from "../Team/simon.jpg";
 import Suubi from "../Team/suubi.jpg";
 import Jenny from "../Team/JennyLee.png";
@@ -22,7 +23,7 @@ export default function Team () {
         <h1>Our Team</h1>
       </Jumbotron>
       <Container fluid className="teamUnderTheWave">
-      <Container>
+      <Container className="desktopTeam">
         <Row className="membersTopGrid">
           <Col>
           <Member 
@@ -103,6 +104,70 @@ export default function Team () {
         </Col>
         </Row>
       </Container>
+    </Container>
+    <Container fluid className="teamUnderTheWave2">
+      {/* Mobile */}
+      <Container className="mobileTeam">
+          <Row>
+            
+          </Row>
+          <TeamMobile 
+            src={Simon}
+            alt="simon"
+            role={teamData[0].role}
+            bio={teamData[0].bio}
+          />
+          <TeamMobile 
+            src={Allan}
+            alt="allan"
+            role={teamData[2].role}
+            bio={teamData[2].bio}
+          />
+          <TeamMobile 
+            src={Suubi}
+            alt="suubi"
+            role={teamData[1].role}
+            bio={teamData[1].bio}
+          />
+          <TeamMobile 
+            src={Jenny}
+            alt="jenny"
+            role={teamData[3].role}
+            bio={teamData[3].bio}
+          />
+          <TeamMobile 
+            src={Maggie}
+            alt="maggie"
+            role={teamData[4].role}
+            bio={teamData[4].bio}
+          />
+          <TeamMobile 
+            src={Sharlene}
+            alt="sharlene"
+            role={teamData[5].role}
+            bio={teamData[5].bio}
+          />
+          <TeamMobile 
+            src={Jinny}
+            alt="jinny"
+            role={teamData[6].role}
+            bio={teamData[6].bio}
+          />
+          <TeamMobile 
+            src={Jeffrey}
+            alt="jeffrey"
+            role={teamData[7].role}
+            bio={teamData[7].bio}
+          />
+          <TeamMobile 
+            src={Micha}
+            alt="micha"
+            role={teamData[9].role}
+            bio={teamData[9].bio}
+          />
+      </Container>
+      {/* end Mobile */}
+
       </Container>
     </div>
   );
