@@ -61,6 +61,13 @@ const teamData = [
         role: "Head of Data Analysis",
         bio: "",
         img: "../Team/Poop-Emoji.png"
+    },
+    {
+        id: 10,
+        name: "Micha Merckx",
+        role: "Micha Merckx / Publicity Moderator",
+        bio: "I'm from Antwerp, Belgium and currently studying film in BXL. I like my Humus with extra Humus.",
+        img: "../Team/micha.jpeg"
     }
 ]
 

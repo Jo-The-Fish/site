@@ -11,7 +11,7 @@ import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
 import Sharlene from "../Team/sharlene.png";
-// import Poop from "../Team/Poop-Emoji.png";
+import Micha from "../Team/micha.jpeg";
 
 export default function Team () {
   // const allMembers = teamData.map(member => <Member key={member.id} member={member} />)
@@ -58,7 +58,7 @@ export default function Team () {
           </Col>
         </Row>
 
-        <Row className="membersLowerGrid">
+        <Row className="membersMiddleGrid">
           <Col>
           <Member 
             src={Maggie}
@@ -91,6 +91,16 @@ export default function Team () {
             bio={teamData[7].bio}
           />
           </Col>
+        </Row>
+        <Row className="membersLowerGrid">
+        <Col>
+          <Member 
+            src={Micha}
+            alt="micha"
+            role={teamData[9].role}
+            bio={teamData[9].bio}
+          />
+        </Col>
         </Row>
       </Container>
       </Container>

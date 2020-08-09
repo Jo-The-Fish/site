@@ -1,44 +1,70 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import { Container, Form, Button } from "react-bootstrap";
-import { postMailchimp } from "../../utils/API";
+// import { postMailchimp } from "../../utils/API";
+import axios from "axios";
 import "./wantEarlyAccess.css";
 
-export default function SignUpEarlyAccess() {
-  const [email, setEmail] = useState("");
+export default class SignUpEarlyAccess extends Component {
+  state = {
+    email: "",
+    error: ""
+  }
   // const [error, setError] = useState("");
   // const [confirmation, setConfirmation] = useState("");
 
-  const subscribe = (event) => {
-    event.preventDefault();
-    postMailchimp({
-      email_address: email
-    }).then(() => {
-      console.log("You have been added to the list. Thank you!");
-    }).catch(() => {
-      console.log("Email invalid. Please try again.");
-    })
-  };
+  // const subscribe = (event) => {
+  //   event.preventDefault();
+  //   postMailchimp({
+  //     email_address: email
+  //   }).then(() => {
+  //     console.log("You have been added to the list. Thank you!");
+  //   }).catch(() => {
+  //     console.log("Email invalid. Please try again.");
+  //   })
+  // };
 
   // const url = process.env.MAILCHIMP_URL
 
-  return (
+  handleChange = (event) => {
+    this.setState({email: event.target.value})
+  };
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    const email = {
+      email: this.state.email
+    };
+    axios
+    .post(`/api/memberList/:email`, {email})
+    .then((res)=> {
+      console.log(res)
+      console.log(res.data)
+      // console.log("You have been added to the list. Thank you!");
+    })
+    .catch((err) => {
+      console.log(err);
+    })
+  };
+
+  render () {
+    return (
     <div>
       {/* <MailchimpSubscribe url={url} /> */}
       <Container className="form" id="earlyAccess">
         <h2 className="whiteText">Want early access?</h2>
-        <Form>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Control
             className="contactinput"
             type="email"
             placeholder="Email"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={this.handleChange}
           />
-          <Button variant="primary" type="submit" onClick={subscribe}>
+          <Button variant="primary" type="submit">
             Submit
           </Button>
           {/* {error ? error : ""} */}
         </Form>
       </Container>
     </div>
-  );
-}
+  )};
+};
