@@ -45,3 +45,9 @@
     font-weight: 700;
     color: #4277DE;
 }
+@media only screen and (min-device-width: 601px) and (max-width:1024px) {
+    .inactive {
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+}

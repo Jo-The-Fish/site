@@ -7,7 +7,7 @@ import "./wantEarlyAccess.css";
 export default class SignUpEarlyAccess extends Component {
   state = {
     email: "",
-    error: ""
+    // error: ""
   }
   // const [error, setError] = useState("");
   // const [confirmation, setConfirmation] = useState("");
@@ -31,14 +31,14 @@ export default class SignUpEarlyAccess extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    // console.log(this.state);
     const email = {
       email: this.state.email
     };
     axios
-    .post(`/api/memberList/:email`, {email})
+    .post(`/api/memberList/:email`, email)
     .then((res)=> {
       console.log(res)
-      console.log(res.data)
       // console.log("You have been added to the list. Thank you!");
     })
     .catch((err) => {
