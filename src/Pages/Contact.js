@@ -33,7 +33,7 @@ export default class Contact extends Component {
       if (response.data.status === 'success'){
         console.log("Message Sent."); 
         this.resetForm()
-      }else if(response.data.status === 'fail'){
+      } else if (response.data.status === 'fail'){
         console.log("Message failed to send.")
       }
     })
