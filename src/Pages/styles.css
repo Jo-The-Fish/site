@@ -94,7 +94,7 @@ html, body {
 }
 
 .form {
-    width: 150vh !important;
+    width: 40rem !important;
     text-align: center;
     margin: 0rem 2rem 5rem 2rem;
     align-content: center;
@@ -165,7 +165,7 @@ img {
 }
 @media only screen and (max-width:600px){
     .form{
-        width: 35vh !important;
+        width: 20rem !important;
     }
     #mainJoTheFish {
         width: 100%;
@@ -222,7 +222,7 @@ img {
 }
 @media only screen and (min-device-width: 601px) and (max-width:1024px){
     .form{
-        width: 50vh !important;
+        width: 40rem !important;
     }
     .getinvolved { 
         padding: 1rem 5rem 0rem 5rem;
