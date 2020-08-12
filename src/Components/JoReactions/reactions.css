@@ -10,9 +10,6 @@
     padding-top: 80vh;
     padding-bottom: 18vh;
 }
-/* #fourjos {
-    display: block;
-} */
 .addingImgMargins {
     padding: 0 !important;
     margin-right: 5rem;
@@ -51,12 +48,14 @@
     border: none;
     border-radius: 15px;
     color: white;
-    width: 30rem;
+    width: 26rem;
     position: absolute;
     text-align: left;
     padding: 1rem;
-    margin: 1rem;
-    left: 3rem;
+    margin: 3rem;
+    left: 1rem;
+    line-height: 20px;
+    font-size: 15px;
 }
 #sickJoText {
     background: rgba(255, 255, 255, 0.2);
@@ -64,12 +63,14 @@
     border: none;
     border-radius: 15px;
     color: white;
-    width: 30rem;
+    width: 26rem;
     position: absolute;
     text-align: left;
     padding: 1rem;
-    margin: 1rem;
+    margin: 3rem;
     left: 20rem;
+    line-height: 20px;
+    font-size: 15px;
 }
 #confusedJoText {
     background: rgba(255, 255, 255, 0.2);
@@ -77,12 +78,14 @@
     border: none;
     border-radius: 15px;
     color: white;
-    width: 30rem;
+    width: 26rem;
     position: absolute;
     text-align: left;
     padding: 1rem;
-    margin: 1rem;
+    margin: 3rem;
     left: 38rem;
+    line-height: 20px;
+    font-size: 15px;
 }
 #neutralJoText {
     background: rgba(255, 255, 255, 0.2);
@@ -90,12 +93,14 @@
     border: none;
     border-radius: 15px;
     color: white;
-    width: 30rem;
+    width: 26rem;
     position: absolute;
     text-align: left;
     padding: 1rem;
-    margin: 1rem;
+    margin: 3rem;
     left: 55rem;
+    line-height: 20px;
+    font-size: 15px;
 }
 
 #mobileJos {
@@ -116,6 +121,9 @@
     position: absolute;
     z-index: 2;
     left: 12rem;
+}
+.hoveredJo {
+    margin-top: 3rem;
 }
 
 @media only screen and (max-width:600px){

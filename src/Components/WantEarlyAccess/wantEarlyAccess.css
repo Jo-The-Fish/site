@@ -1,8 +1,11 @@
 #earlyAccess {
-    padding-bottom: 10rem;
+    padding-bottom: 11rem;
+}
+#wantEarlyAccess {
+    margin-bottom: 5rem;
 }
 .contactinput {
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 1.6rem 0rem;
     background: rgba(255, 255, 255, 0.5) !important;
     border: 0px !important;
     color: #ffffff !important;

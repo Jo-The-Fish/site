@@ -86,6 +86,7 @@ export default function Reactions() {
                 <img
                   src={HappyJo}
                   alt="happy jo"
+                  className="hoveredJo"
                   onMouseOver={() => setShowHappyJo(true)}
                   onMouseOut={() => setShowHappyJo(false)}
                 />
@@ -103,6 +104,7 @@ export default function Reactions() {
                 <img
                   src={SickJo}
                   alt="sick jo"
+                  className="hoveredJo"
                   onMouseOver={() => setShowSickJo(true)}
                   onMouseOut={() => setShowSickJo(false)}
                 />
@@ -120,6 +122,7 @@ export default function Reactions() {
                 <img
                   src={ConfusedJo}
                   alt="confused jo"
+                  className="hoveredJo"
                   onMouseOver={() => setShowConfusedJo(true)}
                   onMouseOut={() => setShowConfusedJo(false)}
                 />
@@ -137,6 +140,7 @@ export default function Reactions() {
                 <img
                   src={NeutralJo}
                   alt="neutral jo"
+                  className="hoveredJo"
                   onMouseOver={() => setShowNeutralJo(true)}
                   onMouseOut={() => setShowNeutralJo(false)}
                 />

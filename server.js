@@ -6,6 +6,7 @@ const mc_api_key = process.env.MAILCHIMP_API_KEY;
 const list_id = process.env.MAILING_LIST_ID;
 
 const app = express();
+
 const mailchimp = new Mailchimp(mc_api_key);
 
 const port = process.env.PORT || 3001;

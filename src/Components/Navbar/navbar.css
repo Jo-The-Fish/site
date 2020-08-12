@@ -32,7 +32,7 @@
 .inactive {
     text-decoration: none !important;
     margin: 0;
-    color: #424242;
+    color: #082653;
     padding: 1.5rem !important;
     margin-right: 2rem !important;
     margin-left: 2rem !important;
@@ -40,6 +40,7 @@
     font-variant: small-caps;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    font-variant: small-caps;
 }
 .activeLink ul > li > a {
     font-weight: 700;

@@ -8,10 +8,10 @@ export default function TeamMobile (props) {
   return (
     <div>
     <Row className="mobileRow">
-      <Col xs={12} sm={5} className="mobileMember" >
+      <Col xs={12} sm={3} className="mobileMember" >
       <img className="mobileImg" src={props.src} alt={props.alt} />
       </Col>
-      <Col xs={12} sm={7}>
+      <Col xs={12} sm={9}>
       <Card id="mobileBio">
         <h3 className="whiteText">{props.role}</h3>
         {props.bio}

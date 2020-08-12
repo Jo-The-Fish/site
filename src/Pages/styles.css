@@ -14,7 +14,7 @@ p{
 #mainJoTheFish {
     width: 28rem;
     position: absolute;
-    left: -2rem;
+    left: -1rem;
 }
 .alignheading {
     margin: 2rem;
@@ -58,6 +58,9 @@ h3 {
 html, body {
     height: 100%;
 }
+#blueJo {
+    margin-top: 10vh;
+}
 .whiteText {
     color: #ffffff;
 }
@@ -91,7 +94,7 @@ html, body {
 }
 
 .form {
-    width: 150vh;
+    width: 150vh !important;
     text-align: center;
     margin: 0rem 2rem 5rem 2rem;
     align-content: center;
@@ -125,6 +128,7 @@ img {
 }
 #rightalignjo {
     text-align: right;
+    padding-left: none;
 }
 .btn {
     background-color: #4EC8F4 !important;
@@ -151,6 +155,7 @@ img {
 }
 #arrowDown {
     display: block;
+    padding-top: 8rem;
 }
 #mobileBlueJo {
     display: none;
@@ -160,7 +165,7 @@ img {
 }
 @media only screen and (max-width:600px){
     .form{
-        width: 30vh;
+        width: 35vh !important;
     }
     #mainJoTheFish {
         width: 100%;
@@ -217,7 +222,7 @@ img {
 }
 @media only screen and (min-device-width: 601px) and (max-width:1024px){
     .form{
-        width: 50vh;
+        width: 50vh !important;
     }
     .getinvolved { 
         padding: 1rem 5rem 0rem 5rem;

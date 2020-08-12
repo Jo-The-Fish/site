@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Form, Button } from "react-bootstrap";
-// import { postMailchimp } from "../../utils/API";
-import axios from "axios";
+import { postMailchimp } from "../../utils/API";
+// import axios from "axios";
 import "./wantEarlyAccess.css";
 
 export default class SignUpEarlyAccess extends Component {
@@ -9,19 +9,6 @@ export default class SignUpEarlyAccess extends Component {
     email: "",
     // error: ""
   }
-  // const [error, setError] = useState("");
-  // const [confirmation, setConfirmation] = useState("");
-
-  // const subscribe = (event) => {
-  //   event.preventDefault();
-  //   postMailchimp({
-  //     email_address: email
-  //   }).then(() => {
-  //     console.log("You have been added to the list. Thank you!");
-  //   }).catch(() => {
-  //     console.log("Email invalid. Please try again.");
-  //   })
-  // };
 
   // const url = process.env.MAILCHIMP_URL
 
@@ -30,19 +17,27 @@ export default class SignUpEarlyAccess extends Component {
   };
 
   handleSubmit = (event) => {
-    event.preventDefault();
-    // console.log(this.state);
+    // event.preventDefault();
+    // // console.log(this.state);
     const email = {
       email: this.state.email
     };
-    axios
-    .post(`/api/memberList/:email`, email)
-    .then((res)=> {
-      console.log(res)
-      // console.log("You have been added to the list. Thank you!");
-    })
-    .catch((err) => {
-      console.log(err);
+    // axios
+    // .post(`/api/memberList/:email`, email)
+    // .then((res)=> {
+    //   console.log(res)
+    //   // console.log("You have been added to the list. Thank you!");
+    // })
+    // .catch((err) => {
+    //   console.log(err);
+    // })
+    event.preventDefault();
+    postMailchimp({
+      email_address: email
+    }).then(() => {
+      console.log("You have been added to the list. Thank you!");
+    }).catch(() => {
+      console.log("Email invalid. Please try again.");
     })
   };
 
@@ -51,7 +46,7 @@ export default class SignUpEarlyAccess extends Component {
     <div>
       {/* <MailchimpSubscribe url={url} /> */}
       <Container className="form" id="earlyAccess">
-        <h2 className="whiteText">Want early access?</h2>
+        <h2 id="wantEarlyAccess" className="whiteText">Want early access?</h2>
         <Form onSubmit={this.handleSubmit}>
           <Form.Control
             className="contactinput"

@@ -37,7 +37,8 @@
     margin-bottom: 0;
 }
 .mobileImg {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
 }
 .mobileMember {
     text-align: center;
@@ -57,5 +58,13 @@
 @media only screen and (min-device-width: 601px) and (max-width:1024px) {
     .desktopTeam {
         display: none;
+    }
+    .mobileImg {
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    #mobileBio {
+        margin-top: 1rem;
+        width: 45rem;
     }
 }
