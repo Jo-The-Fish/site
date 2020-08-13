@@ -4,7 +4,7 @@ import { postMailchimp } from "../../utils/API";
 // import axios from "axios";
 import "./wantEarlyAccess.css";
 
-export default class SignUpEarlyAccess extends Component {
+export default class CustomForm extends Component {
   state = {
     email: "",
     // error: ""
