@@ -65,8 +65,8 @@ const teamData = [
     {
         id: 10,
         name: "Micha Merckx",
-        role: "Micha Merckx / Publicity Moderator",
-        bio: "I'm from Antwerp, Belgium and currently studying film in BXL. I like my Humus with extra Humus.",
+        role: "Micha Merckx / Reddit Advocate",
+        bio: "I'm from Antwerp, Belgium, and currently studying film in BXL. I like my Humus with extra Humus.",
         img: "../Team/micha.jpeg"
     }
 ]

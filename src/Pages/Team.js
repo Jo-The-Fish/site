@@ -12,7 +12,7 @@ import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
 import Sharlene from "../Team/sharlene.png";
-import Micha from "../Team/micha.jpeg";
+import Micha from "../Team/micha.jpg";
 
 export default function Team () {
   // const allMembers = teamData.map(member => <Member key={member.id} member={member} />)
