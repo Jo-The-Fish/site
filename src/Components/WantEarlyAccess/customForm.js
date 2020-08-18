@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import GithubCorner from "react-github-corner";
 
 import MailchimpSubscribe from "../../src";
 
