@@ -4,19 +4,20 @@ import "./styles.css";
 import teamData from "../Team/teamData";
 import Member from "../Components/Member/member";
 import TeamMobile from "../Components/Member/teamMobile";
-import Simon from "../Team/simon.jpg";
-import Suubi from "../Team/suubi.jpg";
-import Jenny from "../Team/JennyLee.png";
-import Maggie from "../Team/maggie.jpg";
-import Allan from "../Team/allan.jpg";
-import Jeffrey from "../Team/jeffrey.jpeg";
-import Jinny from "../Team/jinny.JPG";
-import Sharlene from "../Team/sharlene.jpeg";
-import Jay from "../Team/jay.jpg";
-import Myka from "../Team/myka.JPG";
+// import Simon from "../Team/simon.jpg";
+// import Suubi from "../Team/suubi.jpg";
+// import Jenny from "../Team/JennyLee.png";
+// import Maggie from "../Team/maggie.jpg";
+// import Allan from "../Team/allan.jpg";
+// import Jeffrey from "../Team/jeffrey.jpeg";
+// import Jinny from "../Team/jinny.JPG";
+// import Sharlene from "../Team/sharlene.jpeg";
+// import Jay from "../Team/jay.jpg";
+// import Myka from "../Team/myka.JPG";
 
 export default function Team () {
-  // const allMembers = teamData.map(member => <Member key={member.id} member={member} />)
+  // const allMembers = teamData.map(
+  //   member => <Member key={member.id} src={member.img} alt={member.name} role={member.role} bio={member.bio}/>)
 
   return (
     <div>
@@ -26,7 +27,15 @@ export default function Team () {
       <Container fluid className="teamUnderTheWave">
       <Container className="desktopTeam">
         <Row className="membersTopGrid">
+          {teamData.map(member =>
+          <>
           <Col>
+            <Member key={member.id} src={member.img} alt={member.name} role={member.role} bio={member.bio}/>
+          </Col>
+          </>
+          )}
+
+          {/* <Col>
           <Member 
             src={Simon}
             alt="simon"
@@ -110,7 +119,8 @@ export default function Team () {
             role={teamData[9].role}
             bio={teamData[9].bio}
           />
-        </Col>
+        </Col> */}
+
         <Col></Col>
         <Col></Col>
         </Row>
@@ -118,8 +128,16 @@ export default function Team () {
     </Container>
     <Container fluid className="teamUnderTheWave2">
       {/* Mobile */}
+      
       <div id="mobileTeam">
-          <TeamMobile 
+         {teamData.map(member =>
+          <>
+          <Col>
+            <TeamMobile key={member.id} src={member.img} alt={member.name} role={member.role} bio={member.bio}/>
+          </Col>
+          </>
+          )}
+          {/* <TeamMobile 
             src={Simon}
             alt="simon"
             role={teamData[0].role}
@@ -178,7 +196,7 @@ export default function Team () {
             alt="jay"
             role={teamData[9].role}
             bio={teamData[9].bio}
-          />
+          /> */}
       </div>
       {/* end Mobile */}
 
