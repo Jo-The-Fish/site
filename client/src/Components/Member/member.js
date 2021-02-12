@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Card } from "react-bootstrap";
 import "./member.css";
+import LazyImage from "./LazyImage";
 // import { CSSTransition } from "react-transition-group";
 
 export default function Member(props) {
@@ -26,7 +27,12 @@ export default function Member(props) {
   }, []);
   return (
     <div ref={node}>
-      <img style={{borderRadius:"5%"}} src={props.src} alt={props.alt} onClick={() => setOpen(!open)} />
+      {/* <img style={{borderRadius:"5%"}} src={props.src} alt={props.alt} onClick={() => setOpen(!open)} /> */}
+      <LazyImage
+            key={props.id}
+            src={props.img}
+            alt={props.name}
+          />
 
       {open && (
           <Card id="showBio">

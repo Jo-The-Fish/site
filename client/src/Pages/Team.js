@@ -16,9 +16,6 @@ import TeamMobile from "../Components/Member/teamMobile";
 // import Myka from "../Team/myka.JPG";
 
 export default function Team () {
-  // const allMembers = teamData.map(
-  //   member => <Member key={member.id} src={member.img} alt={member.name} role={member.role} bio={member.bio}/>)
-
   return (
     <div>
       <Jumbotron className="team">

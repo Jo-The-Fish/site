@@ -11,6 +11,7 @@ import downArrow from "../Jo/down_arrow.svg";
 import whiteDownArrow from "../Jo/white_down_arrow.svg";
 import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
 import Monitor from "../Jo/monitor.svg";
+import LazyImage from "./LazyImage";
 
 export default function Landing() {
 
@@ -20,10 +21,24 @@ export default function Landing() {
   })
   }
 
+  const styles = {
+    block: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '100vw',
+      height: '100vh'
+    }}
+
   return (
     <ScrollingProvider>
-          <img id="monitor" src={Monitor} alt="monitor"></img>
-      <Jumbotron id="blueJo">
+          {/* <img id="monitor" src={Monitor} alt="monitor"></img> */}
+          <LazyImage
+            key={1}
+            src={Monitor}
+            alt={"monitor"}
+          />
+      <Jumbotron id="blueJo" style={styles.block}>
         <Row>
             {/* <Container id="mainJoTheFish"> */}
           <Col >
@@ -61,7 +76,7 @@ export default function Landing() {
       </Jumbotron>
 
       {/* mobile */}
-      <Jumbotron id="mobileBlueJo">
+      <Jumbotron id="mobileBlueJo" style={styles.block}>
         <img id="partialJo" src={PartialJo} alt="blue Jo"></img>
         <h1 id="jothefishMobile" className="alignheading mobileLanding">Jo the Fish</h1>
         <p className="aligntext mobileLanding">
@@ -87,17 +102,20 @@ export default function Landing() {
       </Jumbotron>
       {/* end mobile */}
 
-      <Section id="howJoWorks">
+      <Section id="howJoWorks" style={styles.block}>
         <HowJoWorks />
       </Section>
-      <Container fluid className="underTheWave">
+      <Container fluid className="underTheWave" style={styles.block}>
         <Reactions />
+      </Container>
+      <Container>
         <div id="subscribeContainer">
-        <Element name= "subscribe">
-          <SignUpEarlyAccess/>
-        </Element>
+          <Element name= "subscribe">
+            <SignUpEarlyAccess/>
+          </Element>
         </div>
-        
+      </Container>
+      
         {/* <Row>
           <Col className="centeralignheading" id="whiteArrowDown" xs={12} lg={12}>
                 <img
@@ -108,8 +126,6 @@ export default function Landing() {
                 />
           </Col>
         </Row> */}
-      </Container>
-
 
     </ScrollingProvider>
     

@@ -1,5 +1,5 @@
 {
-  "name": "test-site",
+  "name": "main-site",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,22 +7,22 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node server.js",
-    "server": "nodemon server.js",
+    "server": "node server.js",
     "client": "npm start --prefix client",
     "build": "cd client && npm install --only=dev && npm install && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoTheFish/site.git"
+    "url": "git+https://github.com/Jo-The-Fish/site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoTheFish/site/issues"
+    "url": "https://github.com/Jo-The-Fish/site/issues"
   },
-  "homepage": "jothefish.com",
+  "homepage": "https://github.com/Jo-The-Fish/site",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",

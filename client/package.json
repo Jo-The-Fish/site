@@ -1,6 +1,6 @@
 {
   "homepage": ".",
-  "name": "test-site",
+  "name": "main-site",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -14,11 +14,14 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
+    "react-lazyload": "^3.2.0",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-modal-video": "^1.2.6",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-scroll-section": "^2.1.0"
+    "react-scroll-section": "^2.1.0",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "predeploy": "npm run build",
